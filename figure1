@@ -1,0 +1,21 @@
+from turtle import *
+speed(0)
+bgcolor('black')
+color('blue')
+hideturtle()
+n=1
+p=True
+counter=0
+while True:
+    circle(n)
+    if p:
+        n=n-1
+    else:
+        n=n+1
+    if n==0 or n==13:
+        p=not p
+    left(1)
+    forward(3)
+    counter+=1
+    if counter==26*14:
+        break
