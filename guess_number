@@ -16,7 +16,7 @@ while True:
         print("Enter the smaller than your number")
     elif guess == num:
         print("****** congratulations ******")
-        print("you win {0} times".format(counter))
+        print("you win {0} in times".format(counter))
     else:
         print("Try again :(")
 
